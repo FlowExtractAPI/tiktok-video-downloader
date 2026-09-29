@@ -140,7 +140,7 @@ Pay per event. You are billed for results, not for runtime.
 
 | Event | Charged when |
 |-------|--------------|
-| Run start | Once per run |
+| Run start | Once per run start, including a restart after a platform migration |
 | Video scraped | A video is successfully scraped, for the full record |
 | Transcript extracted | A transcript is actually returned |
 | Video downloaded | An MP4 is stored, and only if you switch downloads on |
@@ -228,7 +228,7 @@ A summary is written to the Key-Value Store under `RUN_SUMMARY`:
 ### Social Media
 
 - 💼 **LinkedIn**: [flowextract-api](https://www.linkedin.com/in/flowextract-api/)
-- 🐦 **Twitter**: [@FlowExtractAPI](https://x.com/@FlowExtractAPI)
+- 🐦 **Twitter**: [@FlowExtractAPI](https://x.com/FlowExtractAPI)
 - 📱 **Facebook**: [flowextractapi](https://www.facebook.com/flowextractapi)
 
 ### Related Actors
